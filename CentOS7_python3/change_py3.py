@@ -1,4 +1,6 @@
-#运行前需要将该文件放在指定位置，内容是修改yum等系统默认的python版本，由2.7改为3.6
+#运行前需要将该文件放在指定位置。
+#因为yum等指令默认的python版本是python2.7，但我已经将系统默认的版本修改为python3.6，
+#所以为了yum等指令仍可以使用python2.7运行，需要将其运行文件指定python版本。
 
 def csh():
 	with open("/usr/bin/yum") as file:
