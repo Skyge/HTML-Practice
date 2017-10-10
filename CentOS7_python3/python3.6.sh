@@ -20,4 +20,4 @@ ln -s /usr/local/python3.6/bin/pip3 /usr/bin/pip3 &&
 #将change_py3.py文件放在指定位置
 python3 /tmp/change_py3.py &&
 pip3 install virtualenv &&
-ln -s /usr/local/python3.6/bin/virtualenv /usr/bin/virtualenv &&
+ln -s /usr/local/python3.6/bin/virtualenv /usr/bin/virtualenv 
